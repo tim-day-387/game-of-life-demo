@@ -22,6 +22,7 @@ import.o: import.c twoD.h
 #  executable, and documentation.
 clean:
 	rm -f *.o life
+	rm -f *.exe life
 	rm -f -r html latex
 
 # Give command "make docs" to create documentation.	
