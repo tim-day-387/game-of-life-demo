@@ -14,11 +14,11 @@ Conway's game of life. The program can be run exclusively from the command line.
 
 This project utilizes a Makefile and was tested using GCC (GNU Compiler Collection). Navigate to the directory containing the files downloaded from github and run the following command:
 
-make all 
+`make all`
 
 This will compile a executable called 'life.exe'. This program can be run using the following command:
 
-life NR NC gens input [print] [pause]
+`life NR NC gens input [print] [pause]`
 
 where NR (integer) is the number of rows desired for the game board, NC (integer) is the number of 
 columns desired in the game board, gens (integer) is the number of generations for which you wish to 
@@ -30,6 +30,6 @@ The test file provided is named 'testCase.txt' and contains an example of the Go
 
 Afterwards, the command:
 
-make clean 
+`make clean` 
 
-may be used to delete the files created with the command 'make all'.  
+may be used to delete the files created with the first command.
